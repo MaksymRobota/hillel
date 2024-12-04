@@ -1,6 +1,6 @@
-package app;
+package app.inheritance_h2;
 
-import static app.util.AppConstants.MAX_CAT_RUN_DISTANCE;
+import static app.inheritance_h2.util.AppConstants.MAX_CAT_RUN_DISTANCE;
 
 class Cat extends Animal {
     private static int catCount = 0;

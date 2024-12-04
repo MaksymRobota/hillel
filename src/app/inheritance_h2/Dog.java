@@ -1,7 +1,7 @@
-package app;
+package app.inheritance_h2;
 
-import static app.util.AppConstants.MAX_DOG_RUN_DISTANCE;
-import static app.util.AppConstants.MAX_DOG_SWIM_DISTANCE;
+import static app.inheritance_h2.util.AppConstants.MAX_DOG_RUN_DISTANCE;
+import static app.inheritance_h2.util.AppConstants.MAX_DOG_SWIM_DISTANCE;
 
 public class Dog extends Animal {
     private static int dogCount = 0;

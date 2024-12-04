@@ -1,4 +1,4 @@
-package app;
+package app.inheritance_h2;
 
 public class Main {
 

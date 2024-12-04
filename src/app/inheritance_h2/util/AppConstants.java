@@ -1,4 +1,4 @@
-package app.util;
+package app.inheritance_h2.util;
 
 public class AppConstants {
     public static final int MAX_CAT_RUN_DISTANCE = 200;
