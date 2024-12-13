@@ -2,15 +2,15 @@ package app.loop_h5_1;
 
 public class WordOccurrence {
     String name;
-    private Integer occurrence;
+    Integer count;
 
-    public WordOccurrence(String name, Integer occurrence) {
+    public WordOccurrence(String name, Integer count) {
         this.name = name;
-        this.occurrence = occurrence;
+        this.count = count;
     }
 
     @Override
     public String toString() {
-        return "{name: \"" + name + "\", occurrence: " + occurrence + "}";
+        return "{name: \"" + name + "\", occurrence: " + count + "}";
     }
 }
