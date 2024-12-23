@@ -1,6 +1,5 @@
 package app.coffee.order_h7;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -21,10 +20,10 @@ public class CoffeeOrderBoard {
     }
 
     public Order deliver(int number) {
-        for (Iterator<Order> iterator = orders.iterator(); iterator.hasNext(); ) {
-            Order order = iterator.next();
+        for (int i = 0; i < orders.size(); i++) {
+            Order order = orders.get(i);
             if (order.getNumber() == number) {
-                iterator.remove();
+                orders.remove(i);
                 return order;
             }
         }
