@@ -14,6 +14,7 @@
 - [x] h5. Loop: Create a phonebook with loops.
 - [x] h6. LinkedList: Work with data structures.
 - [x] h7. Coffee Order Board: Manage a queue system for orders.
+- [x] h8. Stream API.
 
 ## License
 
